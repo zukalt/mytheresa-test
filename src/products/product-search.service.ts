@@ -19,7 +19,7 @@ export class ProductSearchService {
     for (let i = 0; i < this.all.length && result.length < 5; i++) {
       const p = this.all[i];
       const categoryMatches = p.category === query.category || !query.category;
-      const priceMatches = p.price < priceFilter;
+      const priceMatches = p.price <= priceFilter;
       if (categoryMatches && priceMatches) {
         result.push(p);
       }

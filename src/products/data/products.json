@@ -19,6 +19,24 @@
       "price": 71000
     },
     {
+      "sku": "000006",
+      "name": "boot #4",
+      "category": "boots",
+      "price": 59000
+    },
+    {
+      "sku": "000007",
+      "name": "boot #5",
+      "category": "boots",
+      "price": 59000
+    },
+    {
+      "sku": "000008",
+      "name": "boot #6",
+      "category": "boots",
+      "price": 59000
+    },
+    {
       "sku": "000004",
       "name": "Naima embellished suede sandals",
       "category": "sandals",
