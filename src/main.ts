@@ -6,7 +6,7 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   const config = new DocumentBuilder()
-    .setTitle('Products Service')
+    .setTitle('Products Search Service')
     .setDescription('MyTheresa screening task')
     .setVersion('1.0')
     .build();
