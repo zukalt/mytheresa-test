@@ -10,6 +10,8 @@ The search function implemented with most the simplest form.
 I was expecting poor performance but after adding test cases for search from 50k products 
 it turned out that on my Mac Pro M1 machine it took <3 ms per test (including generation of 50k dataset).
 I didn't improve the algorithm as it looked good enough. 
+For the moment it takes O(n) time to find 5 records per query, 
+which can be improved to O(1) if we index the catalog per category and have items sorted by price.
 
 ## Installation
 
